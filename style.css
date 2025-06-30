@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.top {
+    padding-top: 196px;
+    padding-bottom: 156px;
+}
+
+.top_index {
+    background-image: url(img/topback.jpeg);
+}
+.top__title {
+    color: rgb(32, 32, 39);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    max-width: 768px;
+    padding-bottom: 24px;
+    white-space: pre-line;
+}
+
+.top__text {
+    color: rgb(32, 32, 39);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 64px;
+    white-space: pre-line;
+}
+
+.button {
+    box-sizing: border-box;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding: 16px 58px;
+}
+
+.button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.product-box {
+    box-sizing: border-box;
+    padding-top: 92px;
+    padding-bottom: 52px;
+}
+
+.product-box_index {
+    background-image: url(img/sectionback.jpeg);
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    padding-bottom: 24px;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    white-space: pre-line;
+    padding-bottom: 64px;
+}
+
+.product-box__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
+    box-sizing: border-box;
+}
+
+.product:hover {
+    transform: scale(1.1);
+}
+
+.product-box__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px 32px 36px 32px;
+    margin-top: auto;
+}
+
+.product__text {
+    border-radius: 52.58px;
+    background: rgb(247, 247, 247);
+    color: rgb(32, 32, 39);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+    padding: 8px 16px 10px 16px;
+}
+
+.product__title {
+    color: rgb(32, 32, 39);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    white-space: pre-line;
+}
+
+.product__title_high {
+    margin-top: 16px;
+}
+
+.game {
+    padding-top: 46px;
+    padding-bottom: 144px;
+}
+
+.game_index {
+    background-image: url(img/sectionback.jpeg);
+}
+
+.game__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 32px;
+}
+
+.game__info {
+    background: #fff;
+    box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
+    box-sizing: border-box;
+    padding: 48px;
+}
+
+.game__info_radius-left {
+    border-radius: 30px 0px 0px 30px;
+}
+
+.game__info_radius-right {
+    border-radius: 0px 30px 30px 0px;
+}
+
+.game__info-title {
+    color: rgb(32, 32, 39);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    white-space: pre-line;
+}
+
+.game__info-text {
+    color: rgb(32, 32, 39);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    white-space: pre-line;
+    padding-top: 24px;
+    padding-bottom: 36px;
+}
+
+.footer {
+    background: rgb(189, 237, 53);
+    padding: 60px;
+}
+
+.footer__text {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+}
