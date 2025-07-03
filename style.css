@@ -21,12 +21,46 @@ html {
 }
 
 .top {
+    position: relative;
     padding-top: 196px;
     padding-bottom: 156px;
 }
 
 .top_index {
-    background-image: url(img/topback.jpeg);
+    background-color: #E1FF8F;
+    background-size: cover;
+}
+
+.top__star-box {
+}
+
+.top__star {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.top__star-side {
+    top: 0;
+    right: 0;
+}
+
+.top__star-empty-big {
+    bottom: 35px;
+    right: 345px;
+}
+
+.top__star-green-big {
+    top: 93px;
+    left: 15px;
+}
+.top__star-empty {
+    top: 68px;
+    left: 106px;
+}
+.top__star-green {
+    bottom: 112px;
+    right: 455px;
 }
 .top__title {
     color: rgb(32, 32, 39);
@@ -53,11 +87,10 @@ html {
     border-radius: 60px;
     background: rgb(32, 32, 39);
     color: rgb(255, 255, 255);
-    font-family: Montserrat;
     font-size: 24px;
     font-weight: 600;
     text-align: center;
-    padding: 16px 58px;
+    padding: 18px 68px;
 }
 
 .button:hover {
@@ -66,13 +99,34 @@ html {
 }
 
 .product-box {
+    position: relative;
+    z-index: -2;
     box-sizing: border-box;
     padding-top: 92px;
     padding-bottom: 52px;
 }
 
 .product-box_index {
-    background-image: url(img/sectionback.jpeg);
+    background: rgb(32, 32, 39);
+}
+
+.product-box__star-big {
+    position: absolute;
+    top: 105px;
+    right: 0;
+    z-index: -1;
+}
+
+.product-box__star {
+    position: absolute;
+    left: 45px;
+    top: 800px;
+}
+
+.product-box__star-small {
+    position: absolute;
+    left: 28px;
+    top: 740px;
 }
 
 .title {
@@ -144,12 +198,37 @@ html {
 }
 
 .game {
+    position: relative;
     padding-top: 46px;
     padding-bottom: 144px;
 }
 
 .game_index {
     background-image: url(img/sectionback.jpeg);
+}
+
+.game__star-top-big {
+    position: absolute;
+    right: 50px;
+    top: 70px;
+}
+
+.game__star-top {
+    position: absolute;
+    top: 35px;
+    right: 120px;
+}
+
+.game__star-bottom-big {
+    position: absolute;
+    bottom: 70px;
+    right: 50px;
+}
+
+.game__star-bottom {
+    position: absolute;
+    bottom: 45px;
+    right: 140px;
 }
 
 .game__content {
