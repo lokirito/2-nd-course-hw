@@ -25,6 +25,26 @@
         <a href="#aboutgame" class="button">Поехали!</a>
     </section>
 
+    <section class="top-mob">
+        <div class="top__star-box">
+            <img class="top__star top-mob__star" src="img/mobstar.svg" alt="star mob" >
+            <img class="top__star top-mob__star-empty-big" src="img/mobstaremptybig.svg" alt="star empty big" >
+            <img class="top__star top-mob__star-green-big" src="img/mobstargreenbig.svg" alt="star green" >
+            <img class="top__star top-mob__star-empty" src="img/mobstarempty.svg" alt="star empty" >
+            <img class="top__star top-mob__star-green" src="img/mobstargreen.svg" alt="star green" >
+        </div>
+        <h1 class="top-mob__title">Добро 
+            пожаловать 
+            на мой сайт 
+            мини-игр</h1>
+        <p class="top-mob__text">Тебе предстоит пройти несколько
+            увлекательных игр. Если готов, 
+            нажимай <span style="font-weight: bold;">«Поехали!»</span> и <span style="font-weight: bold;">приступай.</span></p>
+        <div class="button-box">
+            <a href="#aboutgame" class="button">Поехали!</a>
+        </div>
+    </section>
+
     <section class="product-box product-box_index center" id="aboutgame">
         <div class="product-box__star-box">
             <img class="product-box__star-big" src="img/starbig.svg" alt="big star">
@@ -93,7 +113,7 @@
             </div>
     </section>
 
-    <section class="game game_index center">
+    <section class="game center">
         <div class="game__star-box">
             <img class="game__star-top-big" src="img/startopbig.svg" alt="star">
             <img class="game__star-top" src="img/startop.svg" alt="small star">
@@ -102,6 +122,7 @@
         </div>
         <h2 class="title">Мини-игры</h2>
         <div class="game__content">
+            <div class="game__cart">
                 <div class="game__info game__info_radius-left" id="game1">
                     <h3 class="game__info-title">Угадай число</h3>
                     <p class="game__info-text">Попробуй угадать случайное 
@@ -109,11 +130,13 @@
                     <button class="button game-button">Играть!</button>
                 </div>
                 <div class="game__img">
-                    <img src="img/gamebig1.jpeg" alt="game1">
+                    <img src="img/gamebig1.jpeg" srcset="img/game1.jpeg 600w" sizes="(max-width:1024px) 80vw" alt="game1">
                 </div>
-            
+            </div>
+                
+            <div class="game__cart">
                 <div class="game__img">
-                    <img src="img/gamebig2.jpeg" alt="game2">
+                    <img src="img/gamebig2.jpeg" srcset="img/game2.jpeg 600w" sizes="(max-width:1024px) 80vw" alt="game2">
                 </div>
                 <div class="game__info game__info_radius-right" id="game2">
                     <h3 class="game__info-title">Простая 
@@ -122,7 +145,9 @@
                         арифметические задачи.</p>
                     <button class="button game-button">Играть!</button>
                 </div>
+            </div>
 
+            <div class="game__cart">
                 <div class="game__info game__info_radius-left" id="game3">
                     <h3 class="game__info-title">Переверни текст</h3>
                     <p class="game__info-text">Попробуй ввести текст, который 
@@ -130,22 +155,26 @@
                     <button class="button game-button">Играть!</button>
                 </div>
                 <div class="game__img">
-                    <img src="img/gamebig3.jpeg" alt="game3">
+                    <img src="img/gamebig3.jpeg" srcset="img/game3.jpeg 600w" sizes="(max-width:1024px) 80vw" alt="game3">
                 </div>
+            </div>
 
+            <div class="game__cart">
                 <div class="game__img">
-                    <img src="img/gamebig4.jpeg" alt="game4">
+                    <img src="img/gamebig4.jpeg" srcset="img/game4.jpeg 600w" sizes="(max-width:1024px) 80vw" alt="game4">
                 </div>
                 <div class="game__info game__info_radius-right" id="game4">
-                    <h3 class="game__info-title">Камень, 
+                    <h3 class="game__info-title game__info-title_normal">Камень, 
                         ножницы, 
                         бумага</h3>
                     <p class="game__info-text">Сыграй в популярную игру 
                         против компьютера.</p>
                     <button class="button game-button">Играть!</button>
                 </div>
+            </div>
 
-                 <div class="game__info game__info_radius-left" id="game5">
+            <div class="game__cart">
+                <div class="game__info game__info_radius-left" id="game5">
                     <h3 class="game__info-title">Простая
                         викторина</h3>
                     <p class="game__info-text">Отвечай на вопросы викторины
@@ -153,22 +182,106 @@
                     <button class="button game-button">Играть!</button>
                 </div>
                 <div class="game__img">
-                    <img src="img/gamebig5.jpeg" alt="game5">
+                    <img src="img/gamebig5.jpeg" srcset="img/game5.jpeg 600w" sizes="(max-width:1024px) 80vw" alt="game5">
                 </div>
+            </div>
 
-                 <div class="game__img">
-                    <img src="img/gamebig6.jpeg" alt="game6">
+            <div class="game__cart">
+                <div class="game__img">
+                    <img src="img/gamebig6.jpeg" srcset="img/game6.jpeg 600w" sizes="(max-width:1024px) 80vw" alt="game6">
                 </div>
                 <div class="game__info game__info_radius-right" id="game6">
-                    <h3 class="game__info-title">Генератор 
+                    <h3 class="game__info-title game__info-title_normal">Генератор 
                         случайных 
                         цветов</h3>
                     <p class="game__info-text">Игра, в которой при клике на кнопку 
                         фон страницы меняется на случайный.</p>
                     <button class="button">Играть!</button>
                 </div>
-            
+            </div>
+                 
         </div>
+
+        <div class="game-mob__content">
+            <div class="game__cart">
+                <img src="img/gamemob1.jpeg" alt="game1">
+                <div class="game__info" id="game1">
+                    <h3 class="game__info-title">Угадай число</h3>
+                    <p class="game__info-text">Попробуй угадать случайное 
+                    число от 1 до 100.</p>
+                    <div class="button-box">
+                        <button class="button">Играть!</button>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="game__cart">
+                <img src="img/gamemob2.jpeg" alt="game2">
+                <div class="game__info" id="game2">
+                    <h3 class="game__info-title">Простая 
+                    арифметика</h3>
+                    <p class="game__info-text">Попробуй решить простые 
+                    арифметические задачи.</p>
+                    <div class="button-box">
+                        <button class="button">Играть!</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game__cart">
+                <img src="img/gamemob3.jpeg" alt="game3">
+                <div class="game__info" id="game3">
+                    <h3 class="game__info-title">Переверни 
+                    текст</h3>
+                    <p class="game__info-text">Попробуй ввести текст, который 
+                    будет перевернут.</p>
+                    <div class="button-box">
+                        <button class="button">Играть!</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game__cart">
+                <img src="img/gamemob4.jpeg" alt="game4">
+                <div class="game__info" id="game4">
+                    <h3 class="game__info-title">Камень, 
+                    ножницы, 
+                    бумага</h3>
+                    <p class="game__info-text">Сыграй в популярную игру 
+                    против компьютера.</p>
+                    <div class="button-box">
+                        <button class="button">Играть!</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game__cart">
+                <img src="img/gamemob5.jpeg" alt="game5">
+                <div class="game__info" id="game5">
+                    <h3 class="game__info-title">Простая
+                    викторина</h3>
+                    <p class="game__info-text">Отвечай на вопросы викторины
+                    с вариантами ответов.</p>
+                    <div class="button-box">
+                        <button class="button">Играть!</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game__cart">
+                <img src="img/gamemob6.jpeg" alt="game6">
+                <div class="game__info" id="game6">
+                    <h3 class="game__info-title">Генератор 
+                    случайных 
+                        цветов</h3>
+                    <p class="game__info-text">Игра, в которой при клике на кнопку 
+                    фон страницы меняется на случайный.</p>
+                    <div class="button-box">
+                        <button class="button">Играть!</button>
+                    </div>
+                </div>
+            </div>
+
     </section>
 
     <footer class="footer">
