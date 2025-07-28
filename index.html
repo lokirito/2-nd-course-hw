@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helloworld</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -26,12 +29,11 @@
     </section>
 
     <section class="top-mob">
-        <div class="top__star-box">
-            <img class="top__star top-mob__star" src="img/mobstar.svg" alt="star mob" >
-            <img class="top__star top-mob__star-empty-big" src="img/mobstaremptybig.svg" alt="star empty big" >
-            <img class="top__star top-mob__star-green-big" src="img/mobstargreenbig.svg" alt="star green" >
-            <img class="top__star top-mob__star-empty" src="img/mobstarempty.svg" alt="star empty" >
-            <img class="top__star top-mob__star-green" src="img/mobstargreen.svg" alt="star green" >
+        <div class="top-mob__star-box">
+            <img class="top-mob__star top-mob__star-empty-big" src="img/mobstaremptybig.svg" alt="star empty big" >
+            <img class="top-mob__star top-mob__star-green-big" src="img/mobstargreenbig.svg" alt="star green" >
+            <img class="top-mob__star top-mob__star-empty" src="img/mobstarempty.svg" alt="star empty" >
+            <img class="top-mob__star top-mob__star-green" src="img/mobstargreen.svg" alt="star green" >
         </div>
         <h1 class="top-mob__title">Добро 
             пожаловать 
@@ -45,9 +47,8 @@
         </div>
     </section>
 
-    <section class="product-box product-box_index center" id="aboutgame">
+    <section class="product-box center" id="aboutgame">
         <div class="product-box__star-box">
-            <img class="product-box__star-big" src="img/starbig.svg" alt="big star">
             <img class="product-box__star" src="img/star.svg" alt="star">
             <img class="product-box__star-small" src="img/starsmall.svg" alt="small star">
         </div>
@@ -57,7 +58,7 @@
             Все игры доступны для пользования.</p>
 
             <div class="product-box__content">
-                <a class="product" href="#game1"> 
+                <a class="product" href="#game1">
                     <img src="img/game1.jpeg" alt="game1">
                     <div class="product-box__bottom">
                         <p class="product__text">Игра №1</p>
@@ -123,22 +124,20 @@
         <h2 class="title">Мини-игры</h2>
         <div class="game__content">
             <div class="game__cart">
-                <div class="game__info game__info_radius-left" id="game1">
+                <div class="game__info" id="game1">
                     <h3 class="game__info-title">Угадай число</h3>
                     <p class="game__info-text">Попробуй угадать случайное 
                         число от 1 до 100.</p>
                     <button class="button game-button">Играть!</button>
                 </div>
                 <div class="game__img">
-                    <img src="img/gamebig1.jpeg" srcset="img/game1.jpeg 600w" sizes="(max-width:1024px) 80vw" alt="game1">
+                    <img src="img/gamebig1.jpeg" alt="game 1">
                 </div>
             </div>
                 
             <div class="game__cart">
-                <div class="game__img">
-                    <img src="img/gamebig2.jpeg" srcset="img/game2.jpeg 600w" sizes="(max-width:1024px) 80vw" alt="game2">
-                </div>
-                <div class="game__info game__info_radius-right" id="game2">
+                    <img src="img/gamebig2.jpeg" alt="game2">
+                <div class="game__info" id="game2">
                     <h3 class="game__info-title">Простая 
                         арифметика</h3>
                     <p class="game__info-text">Попробуй решить простые 
@@ -148,22 +147,22 @@
             </div>
 
             <div class="game__cart">
-                <div class="game__info game__info_radius-left" id="game3">
+                <div class="game__info" id="game3">
                     <h3 class="game__info-title">Переверни текст</h3>
                     <p class="game__info-text">Попробуй ввести текст, который 
                         будет перевернут.</p>
                     <button class="button game-button">Играть!</button>
                 </div>
                 <div class="game__img">
-                    <img src="img/gamebig3.jpeg" srcset="img/game3.jpeg 600w" sizes="(max-width:1024px) 80vw" alt="game3">
+                    <img src="img/gamebig3.jpeg" alt="game3">
                 </div>
             </div>
 
             <div class="game__cart">
                 <div class="game__img">
-                    <img src="img/gamebig4.jpeg" srcset="img/game4.jpeg 600w" sizes="(max-width:1024px) 80vw" alt="game4">
+                    <img src="img/gamebig4.jpeg" alt="game4">
                 </div>
-                <div class="game__info game__info_radius-right" id="game4">
+                <div class="game__info" id="game4">
                     <h3 class="game__info-title game__info-title_normal">Камень, 
                         ножницы, 
                         бумага</h3>
@@ -174,7 +173,7 @@
             </div>
 
             <div class="game__cart">
-                <div class="game__info game__info_radius-left" id="game5">
+                <div class="game__info" id="game5">
                     <h3 class="game__info-title">Простая
                         викторина</h3>
                     <p class="game__info-text">Отвечай на вопросы викторины
@@ -182,15 +181,15 @@
                     <button class="button game-button">Играть!</button>
                 </div>
                 <div class="game__img">
-                    <img src="img/gamebig5.jpeg" srcset="img/game5.jpeg 600w" sizes="(max-width:1024px) 80vw" alt="game5">
+                    <img src="img/gamebig5.jpeg" alt="game5">
                 </div>
             </div>
 
             <div class="game__cart">
                 <div class="game__img">
-                    <img src="img/gamebig6.jpeg" srcset="img/game6.jpeg 600w" sizes="(max-width:1024px) 80vw" alt="game6">
+                    <img src="img/gamebig6.jpeg" alt="game6">
                 </div>
-                <div class="game__info game__info_radius-right" id="game6">
+                <div class="game__info" id="game6">
                     <h3 class="game__info-title game__info-title_normal">Генератор 
                         случайных 
                         цветов</h3>
@@ -202,10 +201,10 @@
                  
         </div>
 
-        <div class="game-mob__content">
+        <div class="game__mob-content">
             <div class="game__cart">
-                <img src="img/gamemob1.jpeg" alt="game1">
-                <div class="game__info" id="game1">
+                    <img src="img/gamemob1.jpeg" alt="game1">
+                <div class="game__info">
                     <h3 class="game__info-title">Угадай число</h3>
                     <p class="game__info-text">Попробуй угадать случайное 
                     число от 1 до 100.</p>
@@ -217,7 +216,7 @@
                 
             <div class="game__cart">
                 <img src="img/gamemob2.jpeg" alt="game2">
-                <div class="game__info" id="game2">
+                <div class="game__info">
                     <h3 class="game__info-title">Простая 
                     арифметика</h3>
                     <p class="game__info-text">Попробуй решить простые 
@@ -230,7 +229,7 @@
 
             <div class="game__cart">
                 <img src="img/gamemob3.jpeg" alt="game3">
-                <div class="game__info" id="game3">
+                <div class="game__info">
                     <h3 class="game__info-title">Переверни 
                     текст</h3>
                     <p class="game__info-text">Попробуй ввести текст, который 
@@ -243,7 +242,7 @@
 
             <div class="game__cart">
                 <img src="img/gamemob4.jpeg" alt="game4">
-                <div class="game__info" id="game4">
+                <div class="game__info">
                     <h3 class="game__info-title">Камень, 
                     ножницы, 
                     бумага</h3>
@@ -257,7 +256,7 @@
 
             <div class="game__cart">
                 <img src="img/gamemob5.jpeg" alt="game5">
-                <div class="game__info" id="game5">
+                <div class="game__info">
                     <h3 class="game__info-title">Простая
                     викторина</h3>
                     <p class="game__info-text">Отвечай на вопросы викторины
@@ -270,7 +269,7 @@
 
             <div class="game__cart">
                 <img src="img/gamemob6.jpeg" alt="game6">
-                <div class="game__info" id="game6">
+                <div class="game__info">
                     <h3 class="game__info-title">Генератор 
                     случайных 
                         цветов</h3>
@@ -281,11 +280,12 @@
                     </div>
                 </div>
             </div>
+        </div>
 
     </section>
 
     <footer class="footer">
         <p class="footer__text">Все права защищены.</p>
-    </footer>
+    </footer>    
 </body>
 </html>
